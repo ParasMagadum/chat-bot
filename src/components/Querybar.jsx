@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import fetchResult from '../api/fetchresult.js';
+import fetchResult from '../api/Fetchresult.js';
 
 const Querybar = ({ setResultHistory }) => {
 
