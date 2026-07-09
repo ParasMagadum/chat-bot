@@ -7,8 +7,8 @@ const Result = ({ result }) => {
       <div className="border-b border-[#CB2957]/15 px-4 py-4 sm:px-6 sm:py-5">
         <div className="flex items-center justify-between">
           <div>
-            <p className="text-sm font-semibold text-[#EEEEEE]">baatcheet</p>
-            <p className="text-xs text-[#EEEEEE]/70">Yaha pe messages dikhenge</p>
+            <p className="text-sm font-semibold text-[#EEEEEE]">conversation</p>
+            <p className="text-xs text-[#EEEEEE]/70">you will see messages here</p>
           </div>
           <div className="rounded-full border border-[#CB2957]/20 bg-[#CB2957]/10 px-3 py-1 text-[11px] font-medium text-[#DDDDDD]">
             Live Chat
@@ -33,8 +33,8 @@ const Result = ({ result }) => {
             <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-[#CB2957]/15 text-2xl">
               <span className="text-[1.5rem] font-semibold tracking-[0.2em] text-[#6c3e26]">✧</span>
             </div>
-            <p className="text-lg font-semibold text-[#EEEEEE]">Bolna shuru kar bhai!!</p>
-            <p className="mt-2 text-sm leading-6 text-[#EEEEEE]/70">kya chahiye aapko?</p>
+            <p className="text-lg font-semibold text-[#EEEEEE]">Start a conversation!</p>
+            <p className="mt-2 text-sm leading-6 text-[#EEEEEE]/70">What would you like to know?</p>
           </div>
         </div>
       )}
