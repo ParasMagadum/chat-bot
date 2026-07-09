@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+	color-scheme: light;
+	font-family: "Georgia", "Times New Roman", serif;
+	background-color: #fff8f1;
+	color: #5a2d2d;
+}
+
+html, body, #root {
+	min-height: 100%;
+}
+
+body {
+	margin: 0;
+	min-height: 100vh;
+	background: linear-gradient(135deg, #000000 0%, #cb2957 45%, #111111 100%);
+	color: #eeeeee;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+button, textarea {
+	font: inherit;
+}
+
+::selection {
+	background: rgba(203, 41, 87, 0.35);
+	color: #eeeeee;
+}
